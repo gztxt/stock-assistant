@@ -1,0 +1,1 @@
+export async function health(){ return fetch('http://127.0.0.1:8000/health').then(r=>r.json()); }
